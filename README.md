@@ -1,3 +1,3 @@
 # devops-project-1-cicd
 
-CI/CD Pipeline
+Project 1: CI/CD Pipeline.
