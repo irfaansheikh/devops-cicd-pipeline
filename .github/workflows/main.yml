@@ -12,7 +12,11 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-
+      - name: Check secret visibility
+        run: |
+          echo "User length:"
+          echo "${{ secrets.DOCKER_USERNAME }}" | wc -c
+    
       - name: Debug secrets
         run: |
           echo "username is ${{ secrets.DOCKER_USERNAME }}"
