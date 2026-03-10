@@ -8,6 +8,7 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment: CICDSECRET3ENV  # <--- Add this if your secrets are in an environment
 
     steps:
       - name: Checkout code
