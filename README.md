@@ -1,3 +1,22 @@
-# devops-project-1-cicd
+# devops-cicd-pipeline
 
-Project 1: CI/CD Pipeline.
+CI/CD Pipeline
+
+Architecture diagram
+
+
+Setup instructions
+
+
+
+Screenshots
+
+
+
+Tools used
+
+
+
+Explanation of workflow
+
+
