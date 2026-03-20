@@ -1,3 +1,5 @@
+![CICD](./ss/cicd1.png)
+
 # Project 1 — CI/CD Pipeline
 
 # DevOps CI/CD Pipeline with GitHub Actions
@@ -5,6 +7,9 @@
 This project demonstrates how to build an automated CI/CD pipeline that builds and deploys a containerized application when code is pushed to the repository.
 
 The pipeline uses GitHub Actions to automate the build and deployment workflow.
+
+![CICD](./ss/cicd2.png)
+
 
 # Project Overview
 
@@ -39,7 +44,7 @@ devops-cicd-pipeline/ <br>
     ├── package.json <br>
     └── Dockerfile <br>
     .github/workflows/ <br>
-    └── deploy.yml <br>
+    └── main.yml <br>
     README.md <br>
 
 # Tools Used:
